@@ -2,7 +2,7 @@ body {
     background-color: lightsteelblue:
 }
 #banner {
-    background-color: lightsalmon;
+    background-color: lightblue;
     color: black;
     text-align: center;
     width: auto;
@@ -12,7 +12,7 @@ body {
     font-family: fantasy;
 }
 #instructions {
-    background-color: lightsalmon;
+    background-color: lightblue;
     color: black;
     text-align: center;
     width: 500px;
@@ -21,7 +21,7 @@ body {
     padding: 20;
 }
 #compNum {
-    background-color: lightsalmon;
+    background-color: lightblue;
     color: black;
     width: 220;
     height: 70px;
@@ -31,7 +31,7 @@ body {
     text-align: center
 }
 #stats {
-    background-color: lightsalmon;
+    background-color: lightblue;
     color: black;
     width: 220px;
     height: 70px;
@@ -61,7 +61,7 @@ body {
     clear: both;
 }
 #text{
-    background-color: lightsalmon;
+    background-color: lightblue;
     margin-left: 10px;
     color: black;
     position: relative;
@@ -71,7 +71,7 @@ body {
     text-align: center;
 }
 #userNum {
-    background-color: lightsalmon;
+    background-color: lightblue;
     color: black;
     width: 220px;
     height: 70px;

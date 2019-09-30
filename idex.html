@@ -2,18 +2,19 @@
 <html>
 
 <head>
-    <title>Crystal Game</title>
-    <link href="./assets/css/reset.css">
-    <link href="./assets/css/style.css">
-    
+    <title>Crystal Game | HW4</title>
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div id="banner">
-        <h1>Crystal collector</h1>
+        <h1>Crystal Collector Game</h1>
     </div>
 
     <div id="instructions">
+        <p>Instructions:</p>
         <p>You will be given a random number at the start of the game.</p>
         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
         <p>You win the game by matching your total score to the random number. You lose the game if your score surpasses the random number.</p>
@@ -21,10 +22,9 @@
         <p>The game will change the values of each crystal each time the game starts.</p>
     </div>
 
-    <div id="matchNum">
-        <p>match this number:</p>
+    <div id="compNum">
+        <p>Match this number:</p>
     </div>
-    
     <div id="stats">
         <p class="wins"></p>
         <p class="losses"></p>
@@ -32,48 +32,40 @@
 
     <div class="clearfix"></div>
 
+        <!-- images of crystals -->
     <div id="row">
-        
+
         <div class="crystal1">
-                <button id="button1" class="number" value=""> <img src="./assets/img/dimund.png" style="width: 45px; height: 45px"
-                    alt="dimund crystal"></button>
+            <button id="button1" class="number" value=""> <img src="./assets/img/purple.jpg" style="width: 45px; height: 45px"
+                    alt="purple crystal"></button>
         </div>
+
         <div class="crystal2">
-                <button id="button1" class="number" value=""> <img src="./assets/img/orange.jpg" style="width: 45px; height: 45px"
-                    alt="orange crystal"></button>
-        </div>
-        <div class="crystal3">
-                <button id="button1" class="number" value=""> <img src="./assets/img/pink.png" style="width: 45px; height: 45px"
+            <button id="button2" class="number" value=""> <img src="./assets/img/pink.png" style="width: 45px; height: 45px"
                     alt="pink crystal"></button>
         </div>
+
+        <div class="crystal3">
+            <button id="button3" class="number" value=""> <img src="./assets/img/dimund.png" style="width: 45px; height: 45px"
+                    alt="dimund crystal"></button>
+        </div>
+
         <div class="crystal4">
-                <button id="button1" class="number" value=""> <img src="./assets/img/purple.jpg" style="width: 45px; height: 45px"
-                    alt="purple crystal"></button>
+            <button id="button4" class="number" value=""> <img src="./assets/img/orange.jpg" style="width: 45px; height: 45px"
+                    alt="orange crystal"></button>
         </div>
     </div>
 
     <div class="clearfix"></div>
 
-    <div id="text">Your score is:</p>
+    <div id="text">
+        <p>Your score is:</p>
     </div>
     <div id="userNum"></div>
 
 
-<script type="text/javavscript" src="assets/javascript/game.js"></script>
+<script type="text/javascript" src=".//assets/javascript/game.js"></script>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
